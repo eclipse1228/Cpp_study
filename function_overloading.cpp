@@ -1,11 +1,11 @@
 #include <iostream>
-
+using namespace std;
 
 add (int a,int b){
   return a+b; 
 }
 
-add(double a,double b){
+add(double a,double b){  // function overloading
   return a+b;
 }
 
